@@ -1,0 +1,211 @@
+.header-container{
+ background-image: url(imgs/package.jpg);
+    background-image: linear-gradient(rgba(34, 31, 30, 0.85),rgba(0, 0, 0, 0.85)),url('../package.jpg');
+    background-position:left;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 15vh;
+    border-bottom: 2px solid #77e377;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+}
+
+body{
+    margin: 0;
+}
+.company-logo{
+    height: 15vh;
+}
+
+.nav-bar{
+    margin-left: 10vw;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    display: inline;
+    padding: 1em;
+}
+.nav-bar ul li a{
+   text-decoration: none;
+   color: white;
+}
+
+.nav-bar ul li a:hover{
+     color: #77e377;
+     border-bottom: 1px solid white;
+     padding-bottom: 1em;
+ }
+
+ button{
+     background: rgba(86, 214, 96, 0.96);
+     font-size: 16px;
+     color: rgb(101, 101, 101);
+     border: 2px solid white;
+     padding: 1em ;
+     width: 10vw;
+     border-radius: 10px;
+ }
+
+ 
+ button:hover{
+    background: rgba(185, 227, 119, 0.76);
+    color: wheat;
+    color:#77e377;
+    border: 2px solid #77e377;
+  }
+
+
+.hero-unit-container{
+   
+    background-image:linear-gradient(rgba(21, 68, 144, 0.48),rgba(33, 242, 194, 0.59)),url('../background.jpg');
+        background-position: center;
+        background-attachment: fixed;
+    background-size: cover;
+      height: 70vh;
+      text-align: center;
+    }
+
+  .hero-unit-container h1{
+      color: #28282e;
+      margin: 0em;
+      padding-top: 20vh;
+      font-size: 5em;
+  }
+.hero-unit-container h2{
+       margin: 0em;
+      padding-top: 10vh;
+    color: rgba(119, 40, 40, 0.79);
+      font-size: 2em;
+}
+.para{
+    font-size: 1.5em;
+    color: rgba(9, 78, 9, 0.44);
+}
+  .hero-unit-container a{
+      text-decoration: none;
+      color: #050f02;
+      background-color: #78ff50;
+      width: 15vw;
+      padding: 1em;
+      border: 2px solid rgb(209, 183, 133);
+      border-radius: 15px;
+      display: block;
+      margin: 5vh auto;
+  }
+.h4{
+    margin-top: 50px;
+   text-align: center;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.giftc{
+    margin-top: 200px;
+}
+
+  .hero-unit-container a:hover{
+    text-decoration: none;
+    color: #ad4848;
+    background-color: #b1ea9c;
+    width: 15vw;
+    padding: 1em;
+    border: 2px solid #78ff50;
+    border-radius: 15px;
+    display: block;
+    margin: 5vh auto;
+}
+.hero-unit-mask{
+    background-color: rgba(250,250, 250, 0.3);
+    height: 70vh;
+}
+
+.paper-layout-section{
+    
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+}
+.paper-layout-section h2{
+    text-align: center;
+}
+.paper-card-container h3{
+    color: #313030;
+}
+.paper-card-container{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.513),rgba(0, 0, 0, 0.698)),url('../one.jpg');
+   background-position: right;
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 5px;
+}
+
+.pack-text{
+   align-items: center;
+    justify-content: space-evenly;
+    color: rgb(230, 138, 11);
+}
+.card img{
+    height:35vh;
+    width:20vw;
+}
+.card{
+    background-color: rgba(220, 247, 221, 0.8);
+    text-align: center;
+    height: 65vh;
+    width: 20vw;
+    padding: 1em;
+    box-shadow: 5px 5px 30px grey;
+}
+
+
+footer{
+    background-color: cadetblue;
+    height: 15vh;
+    text-align: center;
+    border: 2px solid coral;
+    margin :0;
+}
+
+footer h2{
+    padding-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
